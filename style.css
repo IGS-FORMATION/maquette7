@@ -1,0 +1,208 @@
+#container
+{
+    width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    
+}
+body
+{
+    margin: 0;
+    padding: 15px;
+    background-color:rgba(250, 235, 215, 0.856); 
+    
+}
+
+.color-blue
+{
+    color: blue;
+   
+}
+#section-1 h3
+{
+    font-size: 30px;
+}
+
+#section-3 h3
+{
+    font-size: 18px;
+}
+header nav
+{
+   margin-left: 60px;
+}
+header nav ul li
+{
+    display: inline-block;
+    
+}
+
+header nav ul li a
+{
+    margin-right: 25px;
+    color: gray;
+    text-decoration: none;
+    
+}
+
+#section-1
+{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+#image-1
+{
+    position: absolute;
+    right: 250px;
+}
+#image-1 img
+{
+    width: 350px;
+  height: 350px;
+  margin-left: 180px;
+  border-top-left-radius: 15em;
+  border-top-right-radius: 15em;
+}
+#groupe-image img
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+#section-2 img
+{
+    margin: 80px;
+    
+}
+#section-3
+{
+    display: flex;
+    margin: 80px 0px 100px 0px;
+    margin-left: 100px;
+}
+#section-3 .box
+{
+    float: left;
+    margin: 0px 20px 40px 0px ;
+   
+}
+.groupe-image-2
+{
+    margin-left: 220px;
+}
+.box
+{
+    width: 220px;
+    height: 170px;
+    text-align: justify;
+    box-shadow: 0px 0px 5px #bbb;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+.sign-in
+{
+ 
+  width: 10px;
+  height: 40px;
+  border: 1px;
+  border-radius: 0.5em;
+  background-color: red;
+}
+.bouton-2
+{
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 0.5em;
+    background-color: red;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.line
+{
+    margin-left: 20px;
+    line-height: 150px;
+}
+
+/*icone*/
+.capture1
+{
+    width: 130px;
+    height: 50px;
+    border: 1px solid white;
+   position: absolute;
+   top: 150px;
+   right: 470px;
+   border-radius: 0.5em;
+   background-color: white;
+   z-index: 1;
+}
+.capture1 p
+{
+    margin-top: -15px;
+    margin-left: 40px;
+}
+.capture1 h4
+{
+    margin-top: -45px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.capture2
+{
+    width: 130px;
+    height: 50px;
+    border: 1px solid white;
+   position: absolute;
+   top: 110px;
+   right: 300px;
+   border-radius: 0.5em;
+   background-color: white;
+   z-index: 1;
+}
+.capture2 p
+{
+    margin-top: -15px;
+    margin-left: 40px;
+}
+.capture2 h4
+{
+    margin-top: -45px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.capture3
+{
+    width: 130px;
+    height: 50px;
+    border: 1px solid white;
+   position: absolute;
+   top: 320px;
+   right: 380px;
+   border-radius: 0.5em;
+   background-color: white;
+    z-index: 1;
+}
+.capture3 p
+{
+    margin-top: -14px;
+    margin-left: 40px;
+}
+.capture3 h4
+{
+    margin-top: -35px;
+    margin-left: 40px;
+    color: blue;
+}
